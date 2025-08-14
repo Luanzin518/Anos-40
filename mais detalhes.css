@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(to bottom, #222222, #eeeeee);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    color: #c5a253; /* Cor dourada para o título */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: 1px solid #c5a253; /* Cor dourada para a linha horizontal */
+}
+
+p {
+    width: 600px;
+    margin: 20px auto; /* Centraliza os parágrafos e adiciona margem */
+    padding: 20px;
+    background-color: #fff;
+    border-left: 6px solid #c5a253;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+a:visited {
+    color: darkblue;
+}
